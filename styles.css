@@ -1,10 +1,45 @@
-body {
-    font-family: Arial, sans-serif;
+@font-face {
+    font-family: 'MiFuente';
+    src: url('Fuentes/OpenDyslexic3-Regular.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'MiFuente';
+    src: url('Fuentes/OpenDyslexic3-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Fuentes/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Fuentes/Roboto-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+
+.mi-fuente {
+    font-family: 'MiFuente';
+    font-size: 0.875rem; 
+}
+
+.roboto {
+    font-family: 'Roboto';
+}
+
+body {   
     background-color: #fafafa;
     margin: 0;
     padding: 0;
 }
-
+#superior{
+    display: flex;
+    justify-content: flex-end;
+}
 .contenedor {
     max-width: 600px;
     margin: 20px auto;
@@ -59,3 +94,27 @@ header h1 {
     font-size: 16px;
     color: #262626;
 }
+.iconos {
+    display: flex;    
+    justify-content: flex-start; 
+    align-items: start;
+}
+
+.item-ico {
+    margin: 0;
+    padding: 10px; 
+    width: 30px; 
+    height: 30px; 
+}
+
+
+.like-button {
+    cursor: pointer;
+}
+
+.icon {
+    display: none; 
+}
+
+.no-like {
+    display: inline; 

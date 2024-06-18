@@ -6,8 +6,13 @@
     <title>IGatitos</title>
     <link rel="stylesheet" href="./styles.css">
 </head>
-<body>
+<body class="roboto">
+    
     <section id="inicio">
+        <div id="superior">
+            <button id="switch-font">Cambiar Fuente</button>
+             </div>
+             
         <div class="contenedor">
             <header>
                 <h1>Breath the kittens</h1>
@@ -18,7 +23,27 @@
                     <p>15 de Febrero, 2024</p>
                 </div>
                 <img src="IMGatitos/gatitito1.jpg" alt="Gatito 1">
-                <div>Después de un largo día, este gatito se merece una siesta.</div>
+            
+                <div class="iconos">
+                    <div class="item-ico">
+                        <div class="like-button">
+                            <img src="iconos/LIKEno.png" class="icon no-like" alt="No Like" style="display: inline;">
+                            <img src="iconos/LIKE.png" class="icon like" alt="Like" style="display: none;">
+                        </div>
+                    </div>
+
+                     <div class="item-ico"> 
+                        <div class="coment-button">
+                            <img src="iconos/COMMENT.png">
+                             
+                         </div>
+                     </div>
+                     <div class="item-ico"> </div>
+                     <div class="fin item"> </div>
+                </div>
+
+                <div><b>Después</b> de un largo día, este gatito se merece una siesta.</div>
+            
             </div>
         </div>
 
@@ -46,8 +71,10 @@
 
         <div class="contenedor">
             <div class="post"> 
-                <div class="titulo">
-                    <h2>Gatito Aventurero</h2>
+                <div clacute
+                
+                ss ="titulo">
+                    <h2 > Gatito Aventurero</h2>
                     <p>05 de Mayo, 2024</p>
                 </div>
                 <img src="IMGatitos/gatitito4.jpg" alt="Gatito 4">
@@ -87,6 +114,7 @@
                 <div>Tres gatitos idénticos que son inseparables.</div>
             </div>
         </div>
+
         <div class="contenedor">
             <div class="post"> 
                 <div class="titulo">
@@ -99,5 +127,6 @@
         </div>
        
     </section>
+    <script src="app.js"></script>
 </body>
-</html>
+</html>  
