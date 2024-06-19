@@ -35,9 +35,9 @@ likeButtons.forEach(button => {
     });
 });
 
-//cambio iconos LIKE
+//cambio iconos save
 
-// Selecciona todos los botones de "like"
+// Selecciona todos los botones de "save"
 const savebutton = document.querySelectorAll('.save-button');
 
 // Itera sobre cada botón y agrega un evento de clic
@@ -57,3 +57,11 @@ savebutton.forEach(button => {
         }
     });
 });
+
+
+//MENU
+
+const menubutton = document.querySelectorAll('.menu-button');
+
+// Itera sobre cada botón y agrega un evento de clic
+menubutton.forEach(button => {})
